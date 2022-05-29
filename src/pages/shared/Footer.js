@@ -12,8 +12,6 @@ const Footer = () => {
                     <span  className="footer-title">Products</span>
                     <a  className="link link-hover">Forums</a>
                     <a  className="link link-hover">Blogs</a>
-                    <a  className="link link-hover">Affliate</a>
-                    <a  className="link link-hover">Advertisement</a>
                 </div>
                 <div>
                     <span  className="footer-title">Company</span>
@@ -23,11 +21,10 @@ const Footer = () => {
                 <div>
                     <span  className="footer-title">Legal</span>
                     <a  className="link link-hover">Terms of use</a>
-                    <a  className="link link-hover">Privacy policy</a>
                 </div>
             </div>
             <div  className='my-10 text-center'>
-                <p>Copyright © 2022 - All right reserved</p>
+                <p>Copyright © APON MAHMUD - All right reserved</p>
             </div>
         </footer>
     );

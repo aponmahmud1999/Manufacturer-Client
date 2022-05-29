@@ -43,8 +43,8 @@ const Login = () => {
     return (
         <div>
             <Slide left>
-                <div className="bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/bg.png')]">
-                    <div className="absolute bg-gradient-to-b from-primary to-secondary opacity-75 inset-0 z-0"></div>
+                <div className="">
+                    <div className="absolute bg-gradient-to-b from-primary to-accent opacity-75 inset-0 z-0"></div>
                     <div className="min-h-screen sm:flex sm:flex-row mx-0 justify-center">
                         <div className="flex justify-center self-center  z-10">
                             <div className="p-12 bg-transparent mx-auto rounded-2xl w-100 ">
@@ -105,7 +105,7 @@ const Login = () => {
                                     {signInError}
                                     <input className='btn w-full max-w-xs text-white' type="submit" value="Login" />
                                 </form>
-                                <p className='text-center'><small>New to Electronics Lab? <Link className='text-amber-400' to="/signup">Create new account</Link></small></p>
+                                <p className='text-center'><small>New to our website? <Link className='text-amber-400' to="/signup">Create new account</Link></small></p>
                                 <div className="divider">OR</div>
                                 <button
                                     onClick={() => signInWithGoogle()}

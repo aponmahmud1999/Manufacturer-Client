@@ -5,7 +5,7 @@ const Summary = () => {
     return (
         <div className='my-10 '>
             <h1 className='text-2xl text-center mb-2'>Summary</h1>
-            <div className='flex justify-center  border-dotted border-t-2 border-b-2 border-primary'>
+            <div className='flex justify-center'>
                 <div className="stats shadow">
 
                     <div className="stat">

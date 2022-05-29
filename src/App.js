@@ -28,7 +28,7 @@ import MyReview from './pages/Dashboard/MyReview';
 
 function App() {
   return (
-    <div>
+    <div className="bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/bg.png')]">
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>} />

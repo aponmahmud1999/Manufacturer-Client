@@ -4,7 +4,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import auth from '../../firebase.init';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRightToBracket,faArrowRightFromBracket,faCircleUser } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRightToBracket,faArrowRightFromBracket } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
     const [user] = useAuthState(auth);
@@ -24,7 +24,7 @@ const Header = () => {
         <li>{user ? <button className="btn btn-ghost" onClick={logout} >Sign Out<FontAwesomeIcon className='text-xl' icon={faArrowRightFromBracket} /></button> : <Link to="/login">Login<FontAwesomeIcon className='text-xl' icon={faArrowRightToBracket} /> </Link>}</li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-transparent">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">

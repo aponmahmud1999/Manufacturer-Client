@@ -44,8 +44,8 @@ const SignUp = () => {
     return (
         <div>
             <Slide left>
-                <div className="bg-no-repeat bg-cover bg-center relative bg-[url('/src/assets/images/bg.png')]">
-                    <div className="absolute bg-gradient-to-b from-primary to-secondary opacity-75 inset-0 z-0"></div>
+                <div className="">
+                    <div className="absolute bg-gradient-to-b from-primary to-accent opacity-75 inset-0 z-0"></div>
                     <div className="min-h-screen sm:flex sm:flex-row mx-0 justify-center">
                         <div className="flex justify-center self-center  z-10">
                             <div className="p-12 bg-transparent mx-auto rounded-2xl w-100 ">
