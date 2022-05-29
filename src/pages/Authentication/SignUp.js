@@ -44,7 +44,7 @@ const SignUp = () => {
     return (
         <div>
             <Slide left>
-                <div className="">
+                <div>
                     <div className="absolute bg-gradient-to-b from-primary to-accent opacity-75 inset-0 z-0"></div>
                     <div className="min-h-screen sm:flex sm:flex-row mx-0 justify-center">
                         <div className="flex justify-center self-center  z-10">
