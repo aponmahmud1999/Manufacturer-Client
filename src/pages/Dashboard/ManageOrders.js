@@ -13,7 +13,7 @@ const ManageOrders = () => {
     const navigate = useNavigate()
 
     useEffect(() => {
-        fetch(`http://localhost:5000/order`, {
+        fetch(`https://whispering-depths-14574.herokuapp.com/order`, {
             method: 'GET',
             headers: {
                 'authorization': `Bearer ${localStorage.getItem('accessToken')}`
@@ -32,7 +32,7 @@ const ManageOrders = () => {
             })
     }, [email, orders, navigate])
     const handleShipping = id => {
-        fetch(`http://localhost:5000/order/${id}`, {
+        fetch(`https://whispering-depths-14574.herokuapp.com/order/${id}`, {
             method: "PUT",
             headers: {
                 "content-type": "application/json",

@@ -30,7 +30,7 @@ const AddProduct = () => {
                         minquantity: data.minquantity,
                         img: image
                     }
-                    fetch(`http://localhost:5000/product`, {
+                    fetch(`https://whispering-depths-14574.herokuapp.com/product`, {
                         method: 'POST',
                         headers: {
                             'content-type': 'application/json',
